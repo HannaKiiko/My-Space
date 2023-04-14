@@ -1,0 +1,231 @@
+{
+  "id": "d90f3939-a67e-41f7-b031-62c9c8c2b1a4",
+  "version": "2.0",
+  "name": "HomeWork",
+  "url": "https://www.amazon.com/",
+  "tests": [{
+    "id": "55470803-2a93-4818-ad9e-89eafa3aac50",
+    "name": "Test1",
+    "commands": [{
+      "id": "2e931261-928d-469c-beeb-48b771764b46",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc192794-a43a-428c-b752-2eb0e4f9bf25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e1ef54e-7f16-4d64-99b6-8c773bf72e0c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[@id='nav-cart-count']",
+      "targets": [
+        ["id=nav-cart-count", "id"],
+        ["css=#nav-cart-count", "css:finder"],
+        ["xpath=//span[@id='nav-cart-count']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-cart-count-container']/span", "xpath:idRelative"],
+        ["xpath=//a[4]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6d673e8e-c85b-439c-b022-614f9e52b5cd",
+    "name": "Test 2",
+    "commands": [{
+      "id": "e8cfe944-1779-4e05-bda8-077889afada2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f32f73d-b925-4e6e-899f-05e80ae5e949",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf4ed091-47e6-4944-85de-701c9a9e5133",
+      "comment": "",
+      "command": "click",
+      "target": "id=glow-ingress-line2",
+      "targets": [
+        ["id=glow-ingress-line2", "id"],
+        ["css=#glow-ingress-line2", "css:finder"],
+        ["xpath=//span[@id='glow-ingress-line2']", "xpath:attributes"],
+        ["xpath=//div[@id='glow-ingress-block']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b2a6542-609d-4bf7-8a97-d4a327b0df4e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='a-popover-1']/div/div[2]/span/span/span/button",
+      "targets": [
+        ["name=glowDoneButton", "name"],
+        ["css=.a-button-focus .a-button-text", "css:finder"],
+        ["xpath=//button[@name='glowDoneButton']", "xpath:attributes"],
+        ["xpath=//div[@id='a-popover-1']/div/div[2]/span/span/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Done')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02610f97-1ff9-4b2b-85df-90e5f98f9eb6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e67c4f3d-1bc3-4470-89a7-3352949d494c",
+    "name": "Test 3",
+    "commands": [{
+      "id": "f63df54d-f9f7-482a-9feb-c870eb1736f0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe081fc6-1fe9-4222-97c3-c6ac6d5c84b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "899ef39e-5c60-4a62-89e3-5dfc5ec7f1af",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a/i",
+      "targets": [
+        ["css=.hm-icon", "css:finder"],
+        ["xpath=//a[@id='nav-hamburger-menu']/i", "xpath:idRelative"],
+        ["xpath=//a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b5cdb39-ef55-4c32-b19f-d1f1141ce6e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hmenu > li:nth-child(2) > .hmenu-item > div",
+      "targets": [
+        ["css=.hmenu > li:nth-child(2) > .hmenu-item > div", "css:finder"],
+        ["xpath=//div[@id='hmenu-content']/ul/li[2]/a/div", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa40e868-401e-49d2-ba58-6cc86755b644",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Amazon Music Unlimited",
+      "targets": [
+        ["linkText=Amazon Music Unlimited", "linkText"],
+        ["css=.hmenu-visible > li:nth-child(3) > .hmenu-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Amazon Music Unlimited')]", "xpath:link"],
+        ["xpath=//div[@id='hmenu-content']/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://music.amazon.com/unlimited?ref_=nav_em__dm_hf_0_2_2_2')]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Amazon Music Unlimited')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62118d6c-c8bc-47cf-a93c-454c8500f15b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\37 9 .link",
+      "targets": [
+        ["css=#\\37 9 .link", "css:finder"],
+        ["xpath=//div[@id='79']/span/span/a/span", "xpath:idRelative"],
+        ["xpath=//span/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bffe8e82-5777-4258-a917-bfdf3c135376",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "628b106e-1a99-4cc4-b5c6-68601a0fd01e",
+    "name": "Test 4",
+    "commands": [{
+      "id": "04d92871-8196-4fc4-9361-3471f21c46f6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4c4366d-94af-4a04-81f1-21ecbbda99a0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "775d913b-96b3-4c9b-9d5d-0ce009d24ffd",
+      "comment": "",
+      "command": "click",
+      "target": "id=nav-cart-count",
+      "targets": [
+        ["id=nav-cart-count", "id"],
+        ["css=#nav-cart-count", "css:finder"],
+        ["xpath=//span[@id='nav-cart-count']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-cart-count-container']/span", "xpath:idRelative"],
+        ["xpath=//a[4]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbeb3fdc-55ce-4518-8246-fc4a69846524",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"nav-cart-count-container\"]/span[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c673ef50-07cd-4637-ade5-6331fffad557",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav-cart-icon",
+      "targets": [
+        ["css=.nav-cart-icon", "css:finder"],
+        ["xpath=//div[@id='nav-cart-count-container']/span[2]", "xpath:idRelative"],
+        ["xpath=//a[4]/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f803791-e820-40a3-9e21-2b180006c52b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "51ba097f-c1cc-4766-96cc-cd949eea54c2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["55470803-2a93-4818-ad9e-89eafa3aac50"]
+  }],
+  "urls": ["https://www.amazon.com/"],
+  "plugins": []
+}

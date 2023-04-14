@@ -1,0 +1,91 @@
+{
+  "id": "41fccc25-6fe3-4d5e-ae95-8961cd2a5c87",
+  "version": "2.0",
+  "name": "Home work",
+  "url": "https://www.amazon.com",
+  "tests": [{
+    "id": "88591772-3f45-4c80-9b1b-7d72cb1108a3",
+    "name": "Test5",
+    "commands": [{
+      "id": "f7b9e5ee-39d6-4b38-977a-c2c5de39231c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d80efc3c-4bf2-4806-9d23-316878ab4982",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd962d1b-48af-40b2-8d9e-1f38e8ae9e67",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=nav-logo-sprites",
+      "targets": [
+        ["id=nav-logo-sprites", "id"],
+        ["css=#nav-logo-sprites", "css:finder"],
+        ["xpath=//a[@id='nav-logo-sprites']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-logo']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ref=nav_logo')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70be079c-0d30-45ce-8ff4-f01b562ea5f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-logo-sprites",
+      "targets": [
+        ["id=nav-logo-sprites", "id"],
+        ["css=#nav-logo-sprites", "css:finder"],
+        ["xpath=//a[@id='nav-logo-sprites']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-logo']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ref=nav_logo')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "225d9f03-a616-448f-a254-9bbeae03f3e4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=nav-orders",
+      "targets": [
+        ["id=nav-orders", "id"],
+        ["css=#nav-orders", "css:finder"],
+        ["xpath=//a[@id='nav-orders']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-tools']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/css/order-history?ref_=nav_orders_first')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d03159e6-d511-4846-b705-0b6c0f24fe1d",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//div [@id=\"nav-logo\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9339e14a-7e35-40f2-8bc3-a55974b45d2c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6202e967-1085-47d2-a382-dbaaa47853a3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["88591772-3f45-4c80-9b1b-7d72cb1108a3"]
+  }],
+  "urls": ["https://www.amazon.com/"],
+  "plugins": []
+}

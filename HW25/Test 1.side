@@ -1,0 +1,49 @@
+{
+  "id": "d90f3939-a67e-41f7-b031-62c9c8c2b1a4",
+  "version": "2.0",
+  "name": "HomeWork",
+  "url": "https://www.amazon.com/",
+  "tests": [{
+    "id": "55470803-2a93-4818-ad9e-89eafa3aac50",
+    "name": "Test1",
+    "commands": [{
+      "id": "2e931261-928d-469c-beeb-48b771764b46",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc192794-a43a-428c-b752-2eb0e4f9bf25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e1ef54e-7f16-4d64-99b6-8c773bf72e0c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[@id='nav-cart-count']",
+      "targets": [
+        ["id=nav-cart-count", "id"],
+        ["css=#nav-cart-count", "css:finder"],
+        ["xpath=//span[@id='nav-cart-count']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-cart-count-container']/span", "xpath:idRelative"],
+        ["xpath=//a[4]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "51ba097f-c1cc-4766-96cc-cd949eea54c2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["55470803-2a93-4818-ad9e-89eafa3aac50"]
+  }],
+  "urls": ["https://www.amazon.com/"],
+  "plugins": []
+}

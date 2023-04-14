@@ -1,0 +1,101 @@
+{
+  "id": "d90f3939-a67e-41f7-b031-62c9c8c2b1a4",
+  "version": "2.0",
+  "name": "HomeWork",
+  "url": "https://www.amazon.com/",
+  "tests": [{
+    "id": "55470803-2a93-4818-ad9e-89eafa3aac50",
+    "name": "Test1",
+    "commands": [{
+      "id": "2e931261-928d-469c-beeb-48b771764b46",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc192794-a43a-428c-b752-2eb0e4f9bf25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e1ef54e-7f16-4d64-99b6-8c773bf72e0c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[@id='nav-cart-count']",
+      "targets": [
+        ["id=nav-cart-count", "id"],
+        ["css=#nav-cart-count", "css:finder"],
+        ["xpath=//span[@id='nav-cart-count']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-cart-count-container']/span", "xpath:idRelative"],
+        ["xpath=//a[4]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6d673e8e-c85b-439c-b022-614f9e52b5cd",
+    "name": "Test 2",
+    "commands": [{
+      "id": "e8cfe944-1779-4e05-bda8-077889afada2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f32f73d-b925-4e6e-899f-05e80ae5e949",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf4ed091-47e6-4944-85de-701c9a9e5133",
+      "comment": "",
+      "command": "click",
+      "target": "id=glow-ingress-line2",
+      "targets": [
+        ["id=glow-ingress-line2", "id"],
+        ["css=#glow-ingress-line2", "css:finder"],
+        ["xpath=//span[@id='glow-ingress-line2']", "xpath:attributes"],
+        ["xpath=//div[@id='glow-ingress-block']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b2a6542-609d-4bf7-8a97-d4a327b0df4e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='a-popover-1']/div/div[2]/span/span/span/button",
+      "targets": [
+        ["name=glowDoneButton", "name"],
+        ["css=.a-button-focus .a-button-text", "css:finder"],
+        ["xpath=//button[@name='glowDoneButton']", "xpath:attributes"],
+        ["xpath=//div[@id='a-popover-1']/div/div[2]/span/span/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Done')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02610f97-1ff9-4b2b-85df-90e5f98f9eb6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "51ba097f-c1cc-4766-96cc-cd949eea54c2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["55470803-2a93-4818-ad9e-89eafa3aac50"]
+  }],
+  "urls": ["https://www.amazon.com/"],
+  "plugins": []
+}
